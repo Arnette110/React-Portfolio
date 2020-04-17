@@ -1,0 +1,14 @@
+#heroBody {
+    background-color: #122B3F;
+    background-image: url(/assets/images/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#heroTitle {
+    color: rgb(7, 11, 65);
+}
+
+#heroSub {
+    color: rgb(7, 11, 65);
+}
