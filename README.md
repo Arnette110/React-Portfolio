@@ -4,6 +4,7 @@ This is my portfolio rendered using React
 
 ## URL to project
 
+https://arnette110.github.io/React-Portfolio/
 
 ## Instructions
 - Once the page loads you are able to navigate to each section via the navbar located at the top right.
