@@ -19,9 +19,9 @@ function NavTabs() {
           <div className="navbar-end">
             <div className="navbar-item level-item">
               <Link
-                to="/"
+                to="/React-Portfolio"
                 className={
-                  location.pathname === "/"
+                  location.pathname === "/React-Portfolio"
                     ? "navbar-item active"
                     : "navbar-item"
                 }
