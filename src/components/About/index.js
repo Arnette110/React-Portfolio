@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.css";
+// import headshot from "./assets/images/ChrisEllis.jpg";
+// import resume from "./assets/resume/CHRISTOPHER ELLIS_Resume.doc.pdf";
 
 export default function About() {
   return (
@@ -15,7 +17,7 @@ export default function About() {
           <div className="column is-one-fifth">
             <figure className="image">
               <img
-                src="./assets/images/ChrisEllis.jpg"
+                src={process.env.PUBLIC_URL + "/assets/images/ChrisEllis.jpg"}
                 alt="christopher ellis"
               />
             </figure>
@@ -28,7 +30,8 @@ export default function About() {
                   <strong>Hello! </strong> My name is Chris.
                 </p>
                 <p>
-                  I am a <strong>full stack</strong> web developer with a background in customer service.
+                  I am a <strong>full stack</strong> web developer with a
+                  background in customer service.
                 </p>
                 <p>
                   I am proficient in{" "}
@@ -42,7 +45,8 @@ export default function About() {
                   <strong> React</strong>.
                 </p>
                 <p>
-                  When I'm not coding I enjoy painting, snowboarding, golfing and traveling.
+                  When I'm not coding I enjoy painting, snowboarding, golfing
+                  and traveling.
                 </p>
               </article>
             </div>
@@ -71,8 +75,12 @@ export default function About() {
         <a
           className="button is-medium is-link is-outlined "
           id="resume"
-          href="./assets/resume/CHRISTOPHER ELLIS_Resume.doc.pdf"
+          href={
+            process.env.PUBLIC_URL +
+            "/assets/resume/CHRISTOPHER ELLIS_Resume.doc.pdf"
+          }
           target="_blank"
+          rel="noopener noreferrer"
         >
           <span className="icon">
             <i className="far fa-2x fa-file-pdf"></i>

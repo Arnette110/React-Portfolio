@@ -15,7 +15,7 @@ function PortfolioCard(props) {
             </header>
             <div className="card-content">
               <figure className="image is-16by9">
-                <img src={items.image} alt={items.alt} />
+                <img src={process.env.PUBLIC_URL + items.image} alt={items.alt} />
               </figure>
             </div>
             <footer className="card-footer">
