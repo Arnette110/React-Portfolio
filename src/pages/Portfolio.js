@@ -10,7 +10,7 @@ export default function Portfolio() {
           <h2 className="title is-2" id="portfolioTitle">
             portfolio
           </h2>
-          <h4 className="subtitle is-5" id="portfolioSub">
+          <h4 className="subtitle is-5 has-text-white" id="portfolioSub">
             my latest works
           </h4>
           <br />
