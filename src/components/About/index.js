@@ -71,7 +71,7 @@ export default function About() {
         <a
           className="button is-medium is-link is-outlined "
           id="resume"
-          href="./assets/resume/CHRISTOPHER ELLIS_Resume.doc (1).pdf"
+          href="./assets/resume/CHRISTOPHER ELLIS_Resume.doc.pdf"
           target="_blank"
         >
           <span className="icon">
