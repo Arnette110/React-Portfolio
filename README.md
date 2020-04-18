@@ -14,9 +14,10 @@ This is my portfolio rendered using React
 - The "Contact" section contains my phone number, email address as well as links to my GitHub and Linked-In profiles.
 
 ## Screenshots
-![about-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/77235053-508eba00-6b78-11ea-82ae-c75ac4a2a476.png)
-![portfolio-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/77235067-669c7a80-6b78-11ea-8ef2-7bba3f7f4f1c.png)
-![contact-footer-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/72943280-efdb3080-3d32-11ea-926f-79e1fe593927.png)
+![image](https://user-images.githubusercontent.com/54122844/79626002-13233b00-80ea-11ea-8b9b-c6441c407e44.png)
+![image](https://user-images.githubusercontent.com/54122844/79626016-26360b00-80ea-11ea-9d95-18ca5824b975.png)
+![image](https://user-images.githubusercontent.com/54122844/79626031-3948db00-80ea-11ea-832d-ed13aa87294c.png)
+![image](https://user-images.githubusercontent.com/54122844/79626038-49f95100-80ea-11ea-8cfa-def29c349566.png)
 
 
 ## Built With
