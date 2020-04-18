@@ -4,16 +4,7 @@ import "./styles.css"
 
 function NavTabs() {
   const location = useLocation();
-  // function burger() {
-  //   var burger = document.querySelector(".burger");
-  //   var menu = document.querySelector("#" + burger.dataset.target);
-  //   burger.addEventListener("click", function () {
-  //     burger.classList.toggle("is-active");
-  //     menu.classList.toggle("is-active");
-  //   });
-  // };
-  // burger()
-
+ 
   return (
     <div>
       <nav className="navbar level" id="navBurger">

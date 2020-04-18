@@ -1,7 +1,5 @@
 import React from 'react'
 import "./styles.css"
-// import '/assets/images/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg';
-
 
 export default function Hero() {
     return (

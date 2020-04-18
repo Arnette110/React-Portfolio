@@ -1,7 +1,5 @@
 import React from "react";
 import "./styles.css";
-// import headshot from "./assets/images/ChrisEllis.jpg";
-// import resume from "./assets/resume/CHRISTOPHER ELLIS_Resume.doc.pdf";
 
 export default function About() {
   return (
