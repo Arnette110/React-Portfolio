@@ -35,12 +35,12 @@ export default function About() {
                   I am proficient in{' '}
                   <strong>
                     {' '}
-                    HTML5, CSS3 (Bootstrap and Bulma), JavaScript/ES6/jQuery,
-                    AJAX/axios, Node, Express, Handlebars, SQL/MySQL/Sequelize,
-                    MongoDB/Mongoose/Robo3T, Git
+                    MongoDB/Mongoose/Robo3T, Express, Node, React, HTML5, CSS3
+                    (Bootstrap and Bulma), JavaScript/ES6/jQuery, AJAX/axios,
+                    Handlebars, SQL/MySQL/Sequelize
                   </strong>{' '}
                   and
-                  <strong> React</strong>.
+                  <strong> Git</strong>.
                 </p>
                 <p>
                   When I'm not coding I enjoy painting, snowboarding, golfing
@@ -50,32 +50,12 @@ export default function About() {
             </div>
           </div>
         </div>
-        {/* <div class="tile is-parent">
-          <div class="tile is-child has-text-centered">
-            <h2 class="title is-4">Frontend</h2>
-            <ul class="content">
-              <li>HTML5/CSS3</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>React.js</li>
-            </ul>
-          </div>
-          <div class="tile is-child has-text-centered">
-            <h2 class="title is-4">Backend</h2>
-            <ul class="content">
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>MySQL</li>
-            </ul>
-          </div>
-        </div>{" "} */}
         <a
           className='button is-medium is-link is-outlined '
           id='resume'
           href={
             process.env.PUBLIC_URL +
-            '/assets/resume/resumeCHRISTOPHER ELLIS_Resume.doc (2).pdf'
+            '/assets/resume/resumeCHRISTOPHER ELLIS.pdf'
           }
           target='_blank'
           rel='noopener noreferrer'>
