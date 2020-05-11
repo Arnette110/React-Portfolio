@@ -55,7 +55,7 @@ export default function About() {
           id='resume'
           href={
             process.env.PUBLIC_URL +
-            '/assets/resume/resumeCHRISTOPHER ELLIS.pdf'
+            '/assets/resume/resumeCHRISTOPHER_ELLIS.pdf'
           }
           target='_blank'
           rel='noopener noreferrer'>
