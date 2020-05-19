@@ -1,38 +1,40 @@
-import React from "react";
-import "./styles.css"
-
+import React from 'react'
+import './styles.css'
 
 function PortfolioCard(props) {
   return (
-    <div className="columns is-multiline">
+    <div className='columns is-multiline'>
       {props.Items.map((items) => (
-        <div className="column is-4" key={items.id}>
-          <div className="card">
-            <header className="card-header">
-              <p className="card-header-title">
+        <div className='column is-4' key={items.id}>
+          <div className='card'>
+            <header className='card-header'>
+              <p className='card-header-title'>
                 <span>{items.title}</span>
               </p>
             </header>
-            <div className="card-content">
-              <figure className="image is-16by9">
-                <img src={process.env.PUBLIC_URL + items.image} alt={items.alt} />
+            <div className='card-content'>
+              <figure className='image is-16by9'>
+                <img
+                  src={process.env.PUBLIC_URL + items.image}
+                  alt={items.alt}
+                />
               </figure>
+              <br />
+              <article>{items.about}</article>
             </div>
-            <footer className="card-footer">
+            <footer className='card-footer'>
               <a
                 href={items.deployed}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card-footer-item"
-              >
-                Deployed
+                target='_blank'
+                rel='noopener noreferrer'
+                className='card-footer-item'>
+                {items.isDeployed}
               </a>
               <a
                 href={items.source_code}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card-footer-item"
-              >
+                target='_blank'
+                rel='noopener noreferrer'
+                className='card-footer-item'>
                 Source Code
               </a>
             </footer>
@@ -40,6 +42,6 @@ function PortfolioCard(props) {
         </div>
       )).reverse()}
     </div>
-  );
+  )
 }
-export default PortfolioCard;
+export default PortfolioCard
