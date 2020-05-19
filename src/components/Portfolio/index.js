@@ -23,13 +23,14 @@ function PortfolioCard(props) {
               <article>{items.about}</article>
             </div>
             <footer className='card-footer'>
-              <a
-                href={items.deployed}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='card-footer-item'>
-                {items.isDeployed}
-              </a>
+              {items.deployed && 
+                <a
+                  
+                  href={items.deployed}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='card-footer-item'>Deployed</a>
+              }
               <a
                 href={items.source_code}
                 target='_blank'
