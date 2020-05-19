@@ -76,7 +76,7 @@ const Items = [
     source_code:
       'https://github.com/Arnette110/GalactChris-devourer-of-burgers',
     about:
-      'An MVC design pattern app that allows a user to order a burger and devour it, re-order it or delete it form the DB using MySQL, Node, Express, Handlebars and a homemade ORM.',
+      'An MVC design pattern app that allows a user to order a burger and devour it, re-order it or delete it from the DB using MySQL, Node, Express, Handlebars and a homemade ORM.',
   },
   {
     id: 1,
