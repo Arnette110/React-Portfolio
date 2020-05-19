@@ -13,7 +13,7 @@ export default function Portfolio() {
           <h4 className="subtitle is-5 has-text-white" id="portfolioSub">
             my latest works
           </h4>
-          <br />
+          <hr />
         </div>
         <PortfolioCard Items={Items} />
       </div>
