@@ -21,26 +21,27 @@ const Items = [
     title: 'Scrabble Party App',
     image: '/assets/images/definition-soundcloud.png',
     alt: 'scrabble party app screenshot',
+    isDeployed: 'Deployed',
     deployed: 'https://arnette110.github.io/Scrabble-Party-App/',
     source_code: 'https://github.com/Arnette110/Scrabble-Party-App',
   },
   // items 4 and 5 to be re-added at a later date as they do not have a deployed page to link to as they are backend code only
-  // {
-  //   id: 5,
-  //   title: "PDF Generator",
-  //   image: "/assets/images/profile-generator.gif",
-  //   alt: "PDF generator gif",
-  //   deployed: "",
-  //   source_code: "https://github.com/Arnette110/PDF-Generator",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Dynamic Team Generator",
-  //   image: "/assets/images/team-generator.gif",
-  //   alt: "team generator gif",
-  //   deployed: "",
-  //   source_code: "https://github.com/Arnette110/Dynamic-Team-Generator",
-  // },
+  {
+    id: 5,
+    title: "PDF Generator",
+    image: "/assets/images/profile-generator.gif",
+    alt: "PDF generator gif",
+    
+    source_code: "https://github.com/Arnette110/PDF-Generator",
+  },
+  {
+    id: 4,
+    title: "Dynamic Team Generator",
+    image: "/assets/images/team-generator.gif",
+    alt: "team generator gif",
+    
+    source_code: "https://github.com/Arnette110/Dynamic-Team-Generator",
+  },
   {
     id: 3,
     title: 'Notable Note Taker',
@@ -89,6 +90,7 @@ const Items = [
     alt: 'trade and play app',
     deployed: 'https://trade-and-play.herokuapp.com/',
     source_code: 'https://github.com/Arnette110/Trade-and-Play',
+    about: 'A full stack MERN app where I worked in a team of five and was responsible for implementing the front-end style/design and user interactivity through the use of React.'
   },
 ]
 
