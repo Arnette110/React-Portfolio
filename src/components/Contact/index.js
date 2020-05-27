@@ -5,7 +5,7 @@ export default function index() {
     return (
       <section className='section has-text-centered is-medium' id='contact'>
         <div className='container'>
-          <div className='section-heading'>
+          <div className='heading'>
             <h3 className='title is-2' id='contactTitle'>
               Contact
             </h3>
@@ -14,7 +14,7 @@ export default function index() {
             </h4>
           </div>
 
-          <br />
+          <hr />
 
           <div className='columns is-vcentered is-centered'>
             <div className='column is-3'>
